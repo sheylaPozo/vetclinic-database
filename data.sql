@@ -76,6 +76,3 @@ INSERT INTO visits (animals_id, vets_id, date_of_visit) VALUES (9, 2, 'Aug 3, 20
 INSERT INTO visits (animals_id, vets_id, date_of_visit) VALUES (10, 3, 'May 24, 2020');
 INSERT INTO visits (animals_id, vets_id, date_of_visit) VALUES (10, 1, 'Jan 11, 2021');
 COMMIT TRANSACTION;
-
-
-
