@@ -15,7 +15,7 @@
 > Use indexes to improve query performance
 ---
 
-## 🤍 Built With:
+## 🤍 Built With: 🤍
 
 - SQL  🤍
 - schema.sql 🤍
@@ -23,7 +23,7 @@
 - queries.sql 🤍
 ---
 
-# 🤍 Instructions:
+# 🤍 Instructions: 🤍
 
 To get a local copy up and running follow these simple sample steps...
 To get the content of this project locally you need to run this command on your terminal :
@@ -32,12 +32,12 @@ To get the content of this project locally you need to run this command on your 
 
 - ` git clone git@github.com:sheylaPozo/vetclinic-database.git`
 
-### 🤍 Install
+### 🤍 Install 🤍
 
 - Set up liveserver as an extension in your VS Code.
 - If you don't have the live server extension, or are using another software just view directly in your browser.
 
-## Getting Started 🤍
+## 🤍 Getting Started 🤍
 
 This repository includes files with plain SQL that can be used to recreate a database:
 
@@ -45,7 +45,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Use [data.sql](./data.sql) to populate tables with sample data.
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
-## Author 🤍
+## 🤍 Author 🤍
 
 👤 **Sheyla Pozo** ✨🤍
 
@@ -58,11 +58,11 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/sheylaPozo/vetclinic-database/issues).
 
-## Show your support 🤍
+## 🤍 Show your support 🤍
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments 🤍✨
+## 🤍 Acknowledgments 🤍✨
 
 - Microverse
 - Inspiration
