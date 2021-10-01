@@ -35,6 +35,7 @@ SELECT * from animals WHERE name != 'Gabumon';
 SELECT * from animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
 
 
+
 /* TASK 2 - Query and Update animal table */
 
 BEGIN TRANSACTION;
