@@ -20,7 +20,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 👤 **Sheyla Pozo** ✨🤍
 
-- GitHub: [@githubhandle](https://github.com/sheylaPozo)
+- GitHub: [@github](https://github.com/sheylaPozo)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/sheypozo/)
 
 ## 🤝 Contributing 🤍
