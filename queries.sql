@@ -84,3 +84,19 @@ SELECT neutered, MIN(weight_kg), MAX(weight_kg) FROM animals GROUP BY neutered;
 -- What is the average number of escape attempts per animal type of those born between 1990 and 2000?
 
 SELECT neutered, AVG(escape_attempts) FROM animals WHERE date_part('year', date_of_birth) BETWEEN 1990 AND 2000 GROUP BY neutered;
+
+-- TASK 3 --
+
+SELECT animals.name, owners.full_name FROM animals INNER JOIN owners ON owners.id = animals.owner_id AND owners.full_name = 'Melody Pond';
+
+SELECT animals.name, species.name FROM animals INNER JOIN species ON species.id = animals.species_id AND species.name = 'Pokemon';
+
+SELECT owners.full_name, animals.name FROM owners LEFT JOIN animals ON owners.id = animals.owner_id;
+
+SELECT species.name, COUNT(*) FROM animals FULL OUTER JOIN species ON species.id = animals.species_id GROUP BY species.id;
+
+SELECT animals.name, species.name FROM animals INNER JOIN owners ON owners.id = animals.owner_id INNER JOIN species ON species.id = animals.species_id WHERE owners.full_name = 'Jennifer Orwell' AND species.name = 'Digimon';
+
+SELECT animals.name, animals.escape_attempts FROM animals INNER JOIN owners ON owners.id = animals.owner_id WHERE owners.full_name = 'Dean Winchester' AND animals.escape_attempts = 0;
+
+SELECT owners.full_name, COUNT(animals.owner_id) FROM animals FULL OUTER JOIN owners ON animals.owner_id = owners.id GROUP BY owners.id;
